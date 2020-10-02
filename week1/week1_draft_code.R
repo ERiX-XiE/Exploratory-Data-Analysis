@@ -13,3 +13,4 @@ with(airquality,{
   plot(Wind, Ozone, main = "Ozone and Wind")
   plot(Solar.R, Ozone, main = "Ozone and Solar Radiation")
 })
+# git filter-branch --tree-filter 'rm household_power_consumption.txt' HEAD
